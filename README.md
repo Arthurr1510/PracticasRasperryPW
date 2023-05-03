@@ -1,6 +1,8 @@
 # PracticasRasperryPW
 ##  solución con Pico W (oled display) + botón sencillo y ChatGTP
-'''import json
+
+```
+import json
 import os
 import ssl
 import traceback
@@ -239,4 +241,5 @@ except Exception as e: # pylint: disable=broad-except
     while True:
         if (event1 := keys.events.get()) and event1.pressed:
             break
-    supervisor.reload()'''
+    supervisor.reload()
+```
